@@ -2,11 +2,10 @@
 # -*- coding: utf-8 -*-
 """week 10, Task 01"""
 
-GRADE_DATA = {'students': ['Luke Skywalker', 'Luke Skywalker', 'Luke Skywalker',
-                           'Luke Skywalker', 'Han Solo', 'Han Solo', 'Han Solo',
-                           'Han Solo', 'C-3PO', 'C-3PO', 'C-3PO', 'C-3PO'],
-              'subject': ['Math', 'Etiquette', 'Grammar', 'Gym', 'Math',
-                          'Etiquette', 'Grammar', 'Gym', 'Math', 'Etiquette',
-                          'Grammar', 'Gym'],
-              'grade': ['B', 'B+', 'B', 'A', 'A-', 'C-', 'B', 'B', 'C', 'A+',
-                        'A', 'F']}
+
+GRADE_DATA = {'Luke Skywalker': {'math': 'B', 'etiquette': 'B+', 'grammar': 'B',
+                                 'gym': 'A'},
+              'Han Solo': {'math': 'A-', 'etiquette': 'C-', 'grammar': 'B',
+                           'gym': 'B'},
+              'C-3PO': {'math': 'C', 'etiquette': 'A+', 'grammar': 'A',
+                        'gym': 'F'}}
