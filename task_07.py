@@ -46,7 +46,6 @@ def iter_dict_funky_sum(data):
         >> import task_07
         >>> task_07.iter_dict_funky_sum(task_07.DATA)
         140166242
-
     """
 
     running_total = 0
